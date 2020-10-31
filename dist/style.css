@@ -1,0 +1,121 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: lightgrey;
+    flex-wrap: wrap;
+}
+
+header{
+    padding: 15px;
+    top: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background-color: olive;
+    position: fixed;
+
+}
+
+nav{
+    justify-self: stretch;
+}
+.nav-link{
+    padding: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.8em;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    float: right;
+}
+
+ul {
+  display: flex;
+}
+
+nav li{
+  float:right;
+  display:inline-block; 
+  padding-right:10px;
+}
+
+.products {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    font-size: 1.5em;
+    font-style: italic;
+}
+
+@media (min-width: 700px){
+    .products{
+      flex-direction: row;
+    }
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#about_us{
+  padding-top: 200px;
+  padding-left: 40px;
+  padding-right: 80px;
+}
+#header-img {
+    display: flex;
+    width: 150px;
+    height:150px;
+}
+.img {
+    display: flex;
+    width: 20%;
+    min-width: 100px;
+    height:auto;
+}
+
+footer {
+  background-color: lightgreen;
+  padding:10px;
+}
+
+h1 {
+  flex-basis: 100%;
+  align-self: center;
+  font-style: italic;
+  font-size: 2em;
+}
+
+.articles {
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  display: table-cell;
+}
+
+#video {
+  width: 420px;
+  height: 315px;
+}
+
+p {
+  font-size: 1.5em;
+}
+
+#form {
+  text-align: center;
+}
+
+ol {
+  font-size: 1.5em;
+  line-height: 2;
+  margin-bottom: 0rem;
+  margin-top: 0rem;
+}
